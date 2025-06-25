@@ -1,0 +1,22 @@
+.header {
+  .container {
+    display: flex;
+    justify-content: end;
+    height: 5rem;
+
+    .nav {
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .page-link {
+    text-transform: capitalize;
+  }
+}

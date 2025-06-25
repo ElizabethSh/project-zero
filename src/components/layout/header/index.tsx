@@ -1,17 +1,23 @@
+import "./header.scss";
+
 const PAGES = ["home", "about", "expirience", "projects"] as const;
 
 const Header = () => (
-  <header>
-    {/* TODO: add logo? */}
-    <nav>
-      <ul>
-        {PAGES.map((page) => (
-          <li key={page}>
-            <a href={`#${page}`}>{page}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+  <header className="header">
+    <div className="container">
+      {/* TODO: add logo? */}
+      <nav className="nav">
+        <ul className="nav-list">
+          {PAGES.map((page) => (
+            <li key={page}>
+              <a className="page-link" href={`#${page}`}>
+                {page}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
   </header>
 );
 
