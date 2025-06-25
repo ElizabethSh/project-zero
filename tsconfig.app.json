@@ -26,7 +26,13 @@
 
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@settings": ["settings.ts"],
+      "@utils/*": ["utils.ts"],
+      "types/*": ["types/*"]
+      // add more aliases here
     },
     "outDir": "./dist"
   },

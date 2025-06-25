@@ -32,7 +32,9 @@ export default tseslint.config(
             // Packages. `react` related packages come first.
             ["^react", "^@?\\w"],
             // Internal packages.
-            ["^(components|utils|hooks|config|vendored-lib)(/.*|$)"],
+            [
+              "^(components|utils|hooks|config|vendored-lib|settings|types|pages)(/.*|$)",
+            ],
             // Side effect imports.
             ["^\\u0000"],
             // Parent imports. Put `..` last.
