@@ -6,10 +6,19 @@ const Footer = () => (
       <p>Contact me</p>
       <ul>
         <li>
-          <a>{linkedin}</a>
+          <a
+            href="https://www.linkedin.com/in/lisa-shoshkina/"
+            aria-label="LinkedIn profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {linkedin}
+          </a>
         </li>
         <li>
-          <a>{mail}</a>
+          <a href="mailto:liza.shoshkina@gmail.com" aria-label="Send an email">
+            {mail}
+          </a>
         </li>
       </ul>
     </div>
