@@ -3,7 +3,7 @@ import { linkedin, mail } from "../../../icons";
 const Footer = () => (
   <footer>
     <div className="container">
-      <p>Contact with me</p>
+      <p>Contact me</p>
       <ul>
         <li>
           <a>{linkedin}</a>
