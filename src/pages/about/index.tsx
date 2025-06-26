@@ -1,6 +1,6 @@
 import "./about.scss";
 
-const AboutPage = () => (
+const AboutPage: React.FC = () => (
   <section className="about" id="about">
     <h2 className="section-header">About</h2>
     <img
