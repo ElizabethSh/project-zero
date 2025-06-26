@@ -1,6 +1,6 @@
 import "./header.scss";
 
-const PAGES = ["home", "about", "expirience", "projects"] as const;
+const PAGES = ["home", "about", "experience", "projects"] as const;
 
 const Header = () => (
   <header className="header">
