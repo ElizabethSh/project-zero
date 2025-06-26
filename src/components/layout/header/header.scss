@@ -1,8 +1,17 @@
 .header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--background-color);
+
   .container {
     display: flex;
     justify-content: end;
-    height: 5rem;
+    height: var(--header-height);
+
+    @media (max-width: 480px) {
+      justify-content: center;
+    }
 
     .nav {
       display: flex;
@@ -18,5 +27,13 @@
 
   .page-link {
     text-transform: capitalize;
+    font-weight: 500;
+
+    &:hover,
+    &:focus {
+      color: var(--light-gray);
+    }
+
+    // TODO: Add active link styles
   }
 }
