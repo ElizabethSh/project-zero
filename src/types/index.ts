@@ -1,4 +1,4 @@
-export type Expirience = {
+export type Experience = {
   id: string;
   link: string;
   company: string;
