@@ -1,0 +1,33 @@
+.footer {
+  padding: 1rem 0 1.5rem;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    place-content: center;
+    gap: 2rem;
+  }
+
+  .footer-title {
+    color: var(--light-gray);
+    font-size: 1.25rem;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1rem;
+
+    .social-link {
+      align-items: center;
+      display: flex;
+
+      &:hover,
+      &:focus {
+        color: var(--text-color-secondary);
+        transition: color 0.3s ease;
+      }
+    }
+  }
+}
