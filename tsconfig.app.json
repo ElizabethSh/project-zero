@@ -27,6 +27,7 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
+      "@data/*": ["data/*"],
       "@hooks/*": ["hooks/*"],
       "@pages/*": ["pages/*"],
       "@settings": ["settings.ts"],

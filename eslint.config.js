@@ -33,7 +33,7 @@ export default tseslint.config(
             ["^react", "^@?\\w"],
             // Internal packages.
             [
-              "^(components|utils|hooks|config|vendored-lib|settings|types|pages)(/.*|$)",
+              "^(components|utils|hooks|config|vendored-lib|settings|types|pages|data)(/.*|$)",
             ],
             // Side effect imports.
             ["^\\u0000"],
