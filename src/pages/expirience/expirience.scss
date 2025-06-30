@@ -1,3 +1,5 @@
+@use "../../index.scss";
+
 .experience {
   display: grid;
   justify-items: center;
@@ -11,14 +13,14 @@
   .experience__company-link {
     display: flex;
     gap: 2rem;
-    padding: 1rem 0;
+    padding: 1rem;
 
     &:hover {
       background-color: var(--background-color-experience-hover);
       border-radius: 0.4rem;
 
       .experience__title {
-        color: var(--green);
+        color: var(--text-color-title-hover);
       }
     }
 
@@ -34,15 +36,20 @@
     margin: 0;
   }
 
-  .experience__title {
-    color: var(--text-color-secondary);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0;
-  }
+  .experience__content {
+    display: grid;
+    gap: 1rem;
 
-  .experience__description {
-    text-align: left;
+    .experience__title {
+      color: var(--text-color-secondary);
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .experience__description {
+      text-align: left;
+    }
   }
 
   .skills {
@@ -51,12 +58,7 @@
     flex-wrap: wrap;
 
     .skill {
-      background-color: var(--background-color-skill);
-      padding: 0.25rem 0.75rem;
-      border-radius: 1rem;
-      font-size: 0.875rem;
-      color: var(--text-color-skill);
-      font-weight: 500;
+      @include index.skill;
     }
   }
 }
