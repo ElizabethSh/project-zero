@@ -60,7 +60,7 @@ export const projects: Project[] = [
     link: "https://1061045-cinemaddict-12-jmxk-l0z43gqt1-lisa-shoshkinas-projects.vercel.app/",
     image: "public/images/cinemaddict.png",
     technologies: [
-      "JaveScript",
+      "JavaScript",
       "HTML & CSS",
       "Webpack",
       "Chart.js",
