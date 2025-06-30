@@ -44,12 +44,12 @@ export const projects: Project[] = [
     technologies: [
       "React",
       "HTML & CSS",
-      "Jest",
-      "React Testing Library",
+      "React Router",
       "Redux Toolkit",
       "Axios",
-      "React Router",
       "Leaflet",
+      "Jest",
+      "React Testing Library",
     ],
   },
   {
