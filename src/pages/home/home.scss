@@ -12,10 +12,10 @@
 
   .home__image {
     border-radius: 50%;
-    width: 25rem;
     height: 25rem;
+    justify-self: end;
     object-fit: cover;
-    justify-self: center;
+    width: 25rem;
 
     @media (max-width: 480px) {
       width: 250px;
@@ -23,8 +23,10 @@
     }
 
     @media (max-width: 768px) {
-      width: 350px;
       height: 350px;
+      justify-self: center;
+      order: -1;
+      width: 350px;
     }
   }
 
