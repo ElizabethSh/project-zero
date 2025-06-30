@@ -74,6 +74,6 @@ export const projects: Project[] = [
       "Simple 'instagram'-like app, where you can view photos, upload your own photos and use CSS-filters on them.",
     link: "https://elizabethsh.github.io/1061045-kekstagram-21/",
     image: "/images/keksogram.png",
-    technologies: ["JaveScript", "HTML & CSS"],
+    technologies: ["JavaScript", "HTML & CSS"],
   },
 ];
