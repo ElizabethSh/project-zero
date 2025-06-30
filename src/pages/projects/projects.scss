@@ -1,0 +1,54 @@
+@use "../../index.scss";
+
+.projects__list {
+  display: grid;
+  gap: 2rem;
+}
+
+.project {
+  .project__link {
+    display: flex;
+    gap: 2rem;
+
+    &:hover {
+      background-color: var(--background-color-experience-hover);
+      border-radius: 0.4rem;
+
+      .project_title {
+        color: var(--text-color-title-hover);
+      }
+    }
+
+    .project__image {
+      align-self: center;
+      border-radius: 0.25rem;
+    }
+
+    .project__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+
+    .project_title {
+      margin: 0;
+      color: var(--text-color-secondary);
+    }
+
+    .project__technologies {
+      margin-top: auto;
+    }
+  }
+}
+
+.technologies {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  .technologies_item {
+    @include index.skill;
+  }
+}
