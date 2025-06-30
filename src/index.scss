@@ -20,6 +20,7 @@
   --text-color-primary: var(--slate);
   --text-color-secondary: var(--light-gray);
   --text-color-skill: var(--green);
+  --text-color-title-hover: var(--green);
 
   --background-color: var(--navy);
   --background-color-experience-hover: rgba(17, 34, 64, 0.7);
@@ -67,9 +68,29 @@ section {
 .section-header {
   color: var(--light-gray);
   font-size: 2rem;
+  text-align: center;
 }
 
 .icon {
   height: 1.5em;
   width: 1.5em;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@mixin skill {
+  background-color: var(--background-color-skill);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-color-skill);
+  font-weight: 500;
 }
