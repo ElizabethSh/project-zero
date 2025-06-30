@@ -5,7 +5,7 @@ import "./expirience.scss";
 const ExpiriencePage: React.FC = () => (
   <section className="experience" id="experience">
     <h2 className="section-header">Experience</h2>
-    <ul className="experience__list">
+    <ol className="experience__list">
       {expirience.map(
         ({
           id,
@@ -42,7 +42,7 @@ const ExpiriencePage: React.FC = () => (
           </li>
         )
       )}
-    </ul>
+    </ol>
   </section>
 );
 
