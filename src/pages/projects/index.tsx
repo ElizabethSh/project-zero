@@ -7,7 +7,7 @@ const ProjectsPage = () => (
     <h1 className="section-header">Projects</h1>
     <ol className="projects__list">
       {projects.map(({ title, id, description, link, image, technologies }) => (
-        <li className="progects__item project" key={id}>
+        <li className="projects__item project" key={id}>
           <a
             className="project__link"
             href={link}
