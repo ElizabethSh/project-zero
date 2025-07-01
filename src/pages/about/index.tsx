@@ -1,9 +1,10 @@
 import "./about.scss";
 
-const AboutPage: React.FC = () => (
-  <section className="about" id="about">
+type AboutPageProps = { ref?: React.Ref<HTMLDivElement> };
+
+const AboutPage: React.FC<AboutPageProps> = ({ ref }) => (
+  <section className="about" id="about" ref={ref}>
     <h2 className="section-header">About</h2>
-    {/* TODO: rephrase it */}
     <div className="about__content">
       <p>
         Passionate Frontend Developer building engaging and responsive web

@@ -2,8 +2,12 @@ import { experience } from "@data/experience";
 
 import "./experience.scss";
 
-const ExperiencePage: React.FC = () => (
-  <section className="experience" id="experience">
+type ExperiencePageProps = {
+  ref: React.Ref<HTMLDivElement>;
+};
+
+const ExperiencePage: React.FC<ExperiencePageProps> = ({ ref }) => (
+  <section className="experience" id="experience" ref={ref}>
     <h2 className="section-header">Experience</h2>
     <ol className="experience__list">
       {experience.map(
