@@ -32,8 +32,12 @@
     &:hover,
     &:focus {
       color: var(--light-gray);
+      transition: color 0.2s ease;
     }
 
-    // TODO: Add active link styles
+    &.active {
+      color: var(--text-color-secondary);
+      border-bottom: 2px solid var(--text-color-secondary);
+    }
   }
 }
