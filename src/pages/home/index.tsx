@@ -6,7 +6,7 @@ const HomePage: React.FC = () => (
       <h1 className="home__title">
         Hi, I'm Lisa <br /> Frontend developer
       </h1>
-      <p>
+      <p className="home__description">
         I build engaging and accessible web experiences with React & TypeScript.
       </p>
     </div>

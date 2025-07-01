@@ -2,4 +2,10 @@
   display: grid;
   gap: 1rem;
   justify-items: center;
+
+  .about__content {
+    display: grid;
+    gap: 0.5rem;
+    letter-spacing: 0.5px;
+  }
 }

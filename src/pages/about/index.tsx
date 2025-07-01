@@ -3,12 +3,6 @@ import "./about.scss";
 const AboutPage: React.FC = () => (
   <section className="about" id="about">
     <h2 className="section-header">About</h2>
-    <img
-      className="about__image"
-      src="/images/photo.jpg"
-      alt="Lisa Frontend developer"
-      width="500"
-    />
     {/* TODO: rephrase it */}
     <div className="about__content">
       <p>

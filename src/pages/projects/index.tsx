@@ -22,7 +22,7 @@ const ProjectsPage = () => (
             />
             <div className="project__content">
               <h3 className="project_title">{title}</h3>
-              <p>{description}</p>
+              <p className="project__description">{description}</p>
               <ul className="project__technologies technologies">
                 {technologies.map((tech) => (
                   <li className="technologies_item" key={tech}>
