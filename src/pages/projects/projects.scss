@@ -17,6 +17,7 @@
     &:hover {
       background-color: var(--background-color-experience-hover);
       border-radius: 0.4rem;
+      transition: background-color 0.2s ease;
 
       .project_title {
         color: var(--text-color-title-hover);
@@ -47,7 +48,7 @@
     .project__content {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.875rem;
       justify-content: center;
       padding: 0.5rem;
     }
