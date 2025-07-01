@@ -9,7 +9,7 @@ export const expirience: Experience[] = [
     startDate: "Jan 2022",
     endDate: undefined,
     description:
-      "I'm responsible for driving frontend-part of the Veo Editor, a web application for recording, analyzing, and sharing sport games. My role focuses on building and maintaining frontend UI components, ensuring they are intuitive, responsive, and accessible. Work closely with cross-functional teams, including developers, designers, and product managers to keep our projects moving forward.",
+      "I'm responsible for driving frontend part of the Veo Editor, a web application for recording, analyzing, and sharing sport games. My role focuses on building and maintaining frontend UI components, ensuring they are intuitive, responsive, and accessible. Work closely with cross-functional teams, including developers, designers, and product managers to keep our projects moving forward.",
     skills: [
       "TypeScript",
       "React",
