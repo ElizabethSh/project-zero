@@ -22,7 +22,7 @@ const AboutPage: React.FC = () => (
           Veo Editor
         </a>
         , where I specialize in building and maintaining frontend UI components.
-        I am dedicated to ensuring the platform adheres to web accessibility
+        I am dedicated to ensuring the app adheres to web accessibility
         standards and best practices, providing an inclusive and optimal
         experience for all users.
       </p>
