@@ -1,6 +1,6 @@
 import type { Experience } from "types/index";
 
-export const expirience: Experience[] = [
+export const experience: Experience[] = [
   {
     id: "1",
     company: "Veo Technologies ApS",
@@ -9,7 +9,7 @@ export const expirience: Experience[] = [
     startDate: "Jan 2022",
     endDate: undefined,
     description:
-      "Developed and maintained web applications using React, Typescript and JavaScript.",
+      "I'm responsible for driving frontend part of the Veo Editor, a web application for recording, analyzing, and sharing sport games. My role focuses on building and maintaining frontend UI components, ensuring they are intuitive, responsive, and accessible. Work closely with cross-functional teams, including developers, designers, and product managers to keep our projects moving forward.",
     skills: [
       "TypeScript",
       "React",

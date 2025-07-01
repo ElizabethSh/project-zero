@@ -1,6 +1,6 @@
 import Layout from "@components/layout";
 import AboutPage from "@pages/about";
-import ExpiriencePage from "@pages/expirience";
+import ExperiencePage from "@pages/experience";
 import HomePage from "@pages/home";
 import ProjectsPage from "@pages/projects";
 
@@ -9,7 +9,7 @@ function App() {
     <Layout>
       <HomePage />
       <AboutPage />
-      <ExpiriencePage />
+      <ExperiencePage />
       <ProjectsPage />
     </Layout>
   );

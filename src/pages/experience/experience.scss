@@ -18,6 +18,7 @@
     &:hover {
       background-color: var(--background-color-experience-hover);
       border-radius: 0.4rem;
+      transition: background-color 0.2s ease;
 
       .experience__title {
         color: var(--text-color-title-hover);
