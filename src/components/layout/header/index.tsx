@@ -28,6 +28,7 @@ const Header: React.FC<HeaderProps> = ({ refs }) => {
                 <a
                   className={`page-link ${activeLink === page ? "active" : ""}`}
                   href={`#${page}`}
+                  aria-current={activeLink === page ? "page" : undefined}
                   onClick={(e) => {
                     e.preventDefault();
                     onLinkClick(page);
