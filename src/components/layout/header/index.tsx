@@ -4,14 +4,16 @@ import "./header.scss";
 
 const PAGES = ["home", "about", "experience", "projects"] as const;
 
+type RefKey = (typeof PAGES)[number];
+
 type HeaderProps = {
-  refs: Record<string, React.RefObject<HTMLDivElement | null>>;
+  refs: Record<RefKey, React.RefObject<HTMLDivElement | null>>;
 };
 
 const Header: React.FC<HeaderProps> = ({ refs }) => {
   const [activeLink, setActiveLink] = useState<string>(PAGES[0]);
 
-  const onLinkClick = (page: string) => {
+  const onLinkClick = (page: RefKey) => {
     setActiveLink(page);
     if (refs[page]?.current) {
       refs[page].current.scrollIntoView({ behavior: "smooth" });
