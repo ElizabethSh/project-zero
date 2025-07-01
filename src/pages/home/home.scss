@@ -18,15 +18,18 @@
     width: 25rem;
 
     @media (max-width: 480px) {
-      width: 250px;
-      height: 250px;
+      width: 15rem;
+      height: 15rem;
     }
 
     @media (max-width: 900px) {
-      height: 350px;
-      justify-self: center;
       order: -1;
-      width: 350px;
+      justify-self: center;
+    }
+
+    @media (min-width: 481px) and (max-width: 900px) {
+      height: 21rem;
+      width: 21rem;
     }
   }
 
@@ -61,5 +64,9 @@
   .home__description {
     font-size: 1.125rem;
     font-weight: 500;
+
+    @media (max-width: 480px) {
+      text-align: center;
+    }
   }
 }
