@@ -86,6 +86,15 @@ p {
   margin: 0;
 }
 
+.link__text {
+  color: var(--text-color-secondary);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color-title-hover);
+  }
+}
+
 @mixin skill {
   background-color: var(--background-color-skill);
   border-radius: 1rem;

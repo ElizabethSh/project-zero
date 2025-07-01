@@ -13,11 +13,18 @@ const AboutPage: React.FC = () => (
         with talented teams on innovative frontend projects.
       </p>
       <p>
-        My current role as a Software Engineer at Veo Technologies centers on
-        the Veo Editor, where I specialize in building and maintaining frontend
-        UI components. I am dedicated to ensuring the platform adheres to web
-        accessibility standards and best practices, providing an inclusive and
-        optimal experience for all users.
+        Currently I'm a Software Engineer at{" "}
+        <a className="link__text" href="https://www.veo.co/">
+          Veo Technologies
+        </a>{" "}
+        centers on the{" "}
+        <a className="link__text" href="https://www.veo.co/product/veo-editor">
+          Veo Editor
+        </a>
+        , where I specialize in building and maintaining frontend UI components.
+        I am dedicated to ensuring the platform adheres to web accessibility
+        standards and best practices, providing an inclusive and optimal
+        experience for all users.
       </p>
       <p>
         Outside of work, I enjoy traveling, diving into a good book, exploring
