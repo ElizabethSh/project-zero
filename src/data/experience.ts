@@ -1,6 +1,6 @@
 import type { Experience } from "types/index";
 
-export const expirience: Experience[] = [
+export const experience: Experience[] = [
   {
     id: "1",
     company: "Veo Technologies ApS",

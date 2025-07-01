@@ -1,12 +1,12 @@
-import { expirience } from "data/expirience";
+import { experience } from "@data/experience";
 
-import "./expirience.scss";
+import "./experience.scss";
 
-const ExpiriencePage: React.FC = () => (
+const ExperiencePage: React.FC = () => (
   <section className="experience" id="experience">
     <h2 className="section-header">Experience</h2>
     <ol className="experience__list">
-      {expirience.map(
+      {experience.map(
         ({
           id,
           company,
@@ -46,4 +46,4 @@ const ExpiriencePage: React.FC = () => (
   </section>
 );
 
-export default ExpiriencePage;
+export default ExperiencePage;
