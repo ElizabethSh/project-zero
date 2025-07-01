@@ -1,7 +1,9 @@
 import "./home.scss";
 
-const HomePage: React.FC = () => (
-  <section className="home" id="home">
+type HomePageProps = { ref: React.Ref<HTMLDivElement> };
+
+const HomePage: React.FC<HomePageProps> = ({ ref }) => (
+  <section className="home" id="home" ref={ref}>
     <div className="home__content">
       <h1 className="home__title">
         Hi, I'm Lisa <br /> Frontend developer

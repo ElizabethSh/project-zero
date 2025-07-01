@@ -4,8 +4,19 @@ import "./header.scss";
 
 const PAGES = ["home", "about", "experience", "projects"] as const;
 
-const Header = () => {
+type HeaderProps = {
+  refs: Record<string, React.RefObject<HTMLDivElement | null>>;
+};
+
+const Header: React.FC<HeaderProps> = ({ refs }) => {
   const [activeLink, setActiveLink] = useState<string>(PAGES[0]);
+
+  const onLinkClick = (page: string) => {
+    setActiveLink(page);
+    if (refs[page]?.current) {
+      refs[page].current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <header className="header">
@@ -17,7 +28,10 @@ const Header = () => {
                 <a
                   className={`page-link ${activeLink === page ? "active" : ""}`}
                   href={`#${page}`}
-                  onClick={() => setActiveLink(page)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onLinkClick(page);
+                  }}
                 >
                   {page}
                 </a>

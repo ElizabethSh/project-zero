@@ -2,8 +2,12 @@ import { projects } from "data/projects";
 
 import "./projects.scss";
 
-const ProjectsPage = () => (
-  <section className="projects" id="projects">
+type ProjectsPageProps = {
+  ref: React.Ref<HTMLDivElement>;
+};
+
+const ProjectsPage: React.FC<ProjectsPageProps> = ({ ref }) => (
+  <section className="projects" id="projects" ref={ref}>
     <h1 className="section-header">Projects</h1>
     <ol className="projects__list">
       {projects.map(({ title, id, description, link, image, technologies }) => (
