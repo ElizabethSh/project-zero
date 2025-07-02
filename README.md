@@ -1,6 +1,6 @@
 # My website
 
-My personal website built with [Vite](https://vite.dev/) and deployed with [Vercel](https://vercel.com/). All text is set in the [Inter](https://fonts.google.com/?query=Inter) typeface.
+My [personal website](https://project-zero-psi.vercel.app/) built with [Vite](https://vite.dev/) and deployed with [Vercel](https://vercel.com/). All text is set in the [Inter](https://fonts.google.com/?query=Inter) typeface.
 
 ### 🎨 Color Reference
 
