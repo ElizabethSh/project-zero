@@ -3,11 +3,11 @@ import { github, linkedin, mail } from "../../../icons";
 import "./footer.scss";
 
 type FooterProps = {
-  ref: React.Ref<HTMLDivElement>;
+  forwardedRef: React.Ref<HTMLDivElement>;
 };
 
-const Footer: React.FC<FooterProps> = ({ ref }) => (
-  <footer className="footer" id="contact" ref={ref}>
+const Footer: React.FC<FooterProps> = ({ forwardedRef }) => (
+  <footer className="footer" id="contact" ref={forwardedRef}>
     <div className="container">
       <h6 className="footer-title">Contact me</h6>
       <ul className="social-links">

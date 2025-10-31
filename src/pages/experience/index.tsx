@@ -33,14 +33,16 @@ const ExperiencePage: React.FC<ExperiencePageProps> = ({ ref }) => (
               </p>
               <div className="experience__content">
                 <h3 className="experience__title">{`${position}, ${company}`}</h3>
-                {description.map((description) => (
-                  <li
-                    className="experience__description"
-                    key={description.slice(0, 5)}
-                  >
-                    {description}
-                  </li>
-                ))}
+                <ul className="experience__description-list">
+                  {description.map((description) => (
+                    <li
+                      className="experience__description"
+                      key={description.slice(0, 5)}
+                    >
+                      {description}
+                    </li>
+                  ))}
+                </ul>
                 <ul className="experience__skills skills">
                   {skills.map((skill) => (
                     <li className="skill" key={skill}>

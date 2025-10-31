@@ -10,9 +10,9 @@ This is my personal portfolio website where I present my professional experience
 
 ## 🛠️ Tech Stack
 
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Library:** [React](https://react.dev/)
 - **Build Tool:** [Vite](https://vite.dev/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Styling:** [Sass](https://sass-lang.com/)
 - **Testing:** [Vitest](https://vitest.dev/) + [React Testing Library](https://testing-library.com/react)
 - **Linting:** [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)

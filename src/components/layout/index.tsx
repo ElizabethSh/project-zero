@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children, refs }) => (
     <main>
       <div className="container">{children}</div>
     </main>
-    <Footer ref={refs.contact} />
+    <Footer forwardedRef={refs.contact} />
   </div>
 );
 
