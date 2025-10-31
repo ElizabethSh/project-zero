@@ -11,9 +11,11 @@ export const projects: Project[] = [
     technologies: [
       "React",
       "TypeScript",
-      "HTML & CSS",
+      "HTML",
+      "CSS / Sass",
       "Vitest",
       "React Testing Library",
+      "React Hook Form",
     ],
   },
   {
@@ -26,12 +28,14 @@ export const projects: Project[] = [
     technologies: [
       "React",
       "TypeScript",
-      "HTML & CSS",
+      "HTML",
+      "CSS",
       "Redux Toolkit",
       "Axios",
       "React Router",
       "Vitest",
       "React Testing Library",
+      "React Hook Form",
     ],
   },
   {
@@ -43,7 +47,8 @@ export const projects: Project[] = [
     image: "/images/6_cities.png",
     technologies: [
       "React",
-      "HTML & CSS",
+      "HTML",
+      "CSS",
       "React Router",
       "Redux Toolkit",
       "Axios",
@@ -61,7 +66,8 @@ export const projects: Project[] = [
     image: "/images/cinemaddict.png",
     technologies: [
       "JavaScript",
-      "HTML & CSS",
+      "HTML",
+      "CSS",
       "Webpack",
       "Chart.js",
       "Moment.js",
@@ -69,11 +75,11 @@ export const projects: Project[] = [
   },
   {
     id: "1",
-    title: "Cinemaddict",
+    title: "Keksogram",
     description:
       "Simple 'instagram'-like app, where you can view photos, upload your own photos and use CSS-filters on them.",
     link: "https://elizabethsh.github.io/1061045-kekstagram-21/",
     image: "/images/keksogram.png",
-    technologies: ["JavaScript", "HTML & CSS"],
+    technologies: ["JavaScript", "HTML", "CSS"],
   },
 ];
