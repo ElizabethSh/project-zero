@@ -1,19 +1,20 @@
-import Footer from "./footer";
+import Header from "@components/layout/header";
+import Footer from "@components/layout/footer";
 
 import "./layout.scss";
 
 type LayoutProps = {
   children: React.ReactNode;
-  header: React.ReactNode;
+  refs: Record<string, React.RefObject<HTMLDivElement | null>>;
 };
 
-const Layout: React.FC<LayoutProps> = ({ header, children }) => (
+const Layout: React.FC<LayoutProps> = ({ children, refs }) => (
   <div className="layout">
-    {header}
+    <Header refs={refs} />
     <main>
       <div className="container">{children}</div>
     </main>
-    <Footer />
+    <Footer forwardedRef={refs.contact} />
   </div>
 );
 

@@ -48,6 +48,11 @@
       margin: 0;
     }
 
+    .experience__description-list {
+      display: grid;
+      gap: 0.5rem;
+    }
+
     .experience__description {
       text-align: left;
       letter-spacing: 0.25px;

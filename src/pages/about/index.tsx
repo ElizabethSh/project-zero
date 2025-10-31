@@ -7,30 +7,39 @@ const AboutPage: React.FC<AboutPageProps> = ({ ref }) => (
     <h2 className="section-header">About</h2>
     <div className="about__content">
       <p>
-        Passionate Frontend Developer building engaging and responsive web
-        applications. I prioritize user comfort and accessibility, leveraging
-        React, TypeScript, and modern JavaScript. Actively engage in continuous
-        learning to maintain cutting-edge skills and am excited to collaborate
-        with talented teams on innovative frontend projects.
+        I’m a frontend developer who loves turning ideas into fast, intuitive,
+        and visually polished web experiences. I work primarily with React,
+        TypeScript, and modern JavaScript to build scalable, accessible
+        interfaces that perform smoothly across devices and browsers. I’m
+        passionate about crafting digital experiences that prioritize user
+        comfort and accessibility while maintaining clean, reliable, and
+        maintainable code.
       </p>
       <p>
-        Currently I'm a Software Engineer at{" "}
+        At{" "}
         <a className="link__text" href="https://www.veo.co/">
           Veo Technologies
         </a>{" "}
-        centers on the{" "}
+        I work as a Software Engineer on the{" "}
         <a className="link__text" href="https://www.veo.co/product/veo-editor">
           Veo Editor
         </a>
-        , where I specialize in building and maintaining frontend UI components.
-        I am dedicated to ensuring the app adheres to web accessibility
-        standards and best practices, providing an inclusive and optimal
-        experience for all users.
+        , an AI-powered platform for recording, analyzing, and sharing sports
+        games. My role focuses on developing new features and maintaining
+        frontend components that improve usability and accessibility. I built a
+        design system using React, TypeScript, and Storybook, which improved
+        development speed and product consistency. I also implemented testing
+        strategies with Jest and React Testing Library to improve code
+        reliability and reduce post-release bugs. Beyond code, I enjoy
+        collaborating with designers, backend developers, and product managers
+        to bring ideas to life.
       </p>
       <p>
-        Outside of work, I enjoy traveling, diving into a good book, exploring
-        my creative side with coloring, tackling personal coding projects or
-        simply relaxing with my three feline companions.
+        Outside of work, I love traveling, getting lost in a good book,
+        exploring my creative side with coloring, experimenting with personal
+        coding projects, or just relaxing with my three cats. I’m always
+        curious, always learning, and always excited about creating products
+        that make people’s lives a little better.
       </p>
     </div>
   </section>

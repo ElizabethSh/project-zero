@@ -8,14 +8,20 @@ export const experience: Experience[] = [
     position: "Software Engineer",
     startDate: "Jan 2022",
     endDate: undefined,
-    description:
-      "I'm responsible for driving frontend part of the Veo Editor, a web application for recording, analyzing, and sharing sport games. My role focuses on building and maintaining frontend UI components, ensuring they are intuitive, responsive, and accessible. Work closely with cross-functional teams, including developers, designers, and product managers to keep our projects moving forward.",
+    description: [
+      "I'm responsible for driving frontend part of the Veo Editor, a web application for recording, analyzing, and sharing sport games. My focus is on building intuitive, responsive, and accessible interfaces with React and TypeScript, while collaborating closely with designers and backend developers to create smooth, engaging user experiences.",
+      "I built a design system with React, TypeScript, and Storybook, which sped up development and kept the design consistent across products.",
+      "I also introduced better testing practices with Jest and React Testing Library, improving code reliability and reducing bugs after release.",
+    ],
     skills: [
       "TypeScript",
       "React",
       "JavaScript",
+      "Next.js",
       "Redux",
-      "HTML & SCSS",
+      "HTML",
+      "CSS / Sass",
+      "Design system",
       "Storybook",
       "Jest",
       "Vitest",
@@ -29,15 +35,18 @@ export const experience: Experience[] = [
     position: "Frontend Developer Student",
     startDate: "Sept 2019",
     endDate: "Apr 2021",
-    description:
-      "During my education, I solidified my skills in React, JavaScript, HTML, and CSS through the hands-on development of 5 distinct projects.",
+    description: [
+      "During my education, I gained practical experience by building several projects from design to deployment using React, JavaScript, HTML, CSS, and Redux. I turned Figma designs into responsive, cross-device compatible interfaces while following accessibility best practices. To ensure reliability and quality, I integrated UI testing with Jest and React Testing Library.",
+    ],
     skills: [
       "React",
       "JavaScript",
-      "HTML & SCSS",
+      "Redux",
+      "HTML",
+      "CSS / Sass",
       "Jest",
       "React Testing Library",
-      "Redux",
+      "Webpack",
     ],
   },
 ];

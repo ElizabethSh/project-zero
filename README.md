@@ -1,8 +1,25 @@
-# My website
+# Personal Portfolio Website
 
-My [personal website](https://project-zero-psi.vercel.app/) built with [Vite](https://vite.dev/) and deployed with [Vercel](https://vercel.com/). All text is set in the [Inter](https://fonts.google.com/?query=Inter) typeface.
+A personal portfolio website showcasing my experience, projects, and skills as a frontend engineer.
 
-### 🎨 Color Reference
+🔗 **Live Site:** [lisa-shoshkina.dk](https://lisa-shoshkina.dk/)
+
+## 📖 Description
+
+This is my personal portfolio website where I present my professional experience, showcase projects I've worked on, and share information about my technical skills. The site features a clean, modern design with smooth navigation and responsive layout that works seamlessly across all devices.
+
+## 🛠️ Tech Stack
+
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Library:** [React](https://react.dev/)
+- **Build Tool:** [Vite](https://vite.dev/)
+- **Styling:** [Sass](https://sass-lang.com/)
+- **Testing:** [Vitest](https://vitest.dev/) + [React Testing Library](https://testing-library.com/react)
+- **Linting:** [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Font:** [Inter](https://fonts.google.com/?query=Inter)
+
+## 🎨 Color Reference
 
 | Color      | Hex       |
 | ---------- | --------- |

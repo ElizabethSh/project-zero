@@ -2,7 +2,7 @@
   display: grid;
   gap: 7rem;
   grid-template-columns: auto 1fr;
-  height: calc(100vh - var(--header-height));
+  height: 100vh;
   place-content: center;
 
   @media (max-width: 900px) {
