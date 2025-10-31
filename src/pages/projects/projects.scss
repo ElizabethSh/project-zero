@@ -10,6 +10,11 @@
 }
 
 .project {
+  @media (max-width: 768px) {
+    background-color: var(--background-color-experience-hover);
+    border-radius: 0.25rem;
+  }
+
   .project__link {
     display: flex;
     gap: 2rem;
