@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import Layout from "@components/layout";
-import Header from "@components/layout/header";
 import AboutPage from "@pages/about";
 import ExperiencePage from "@pages/experience";
 import HomePage from "@pages/home";
@@ -12,10 +11,11 @@ function App() {
     home: useRef<HTMLDivElement>(null),
     experience: useRef<HTMLDivElement>(null),
     projects: useRef<HTMLDivElement>(null),
+    contact: useRef<HTMLDivElement>(null),
   };
 
   return (
-    <Layout header={<Header refs={refs} />}>
+    <Layout refs={refs}>
       <HomePage ref={refs.home} />
       <AboutPage ref={refs.about} />
       <ExperiencePage ref={refs.experience} />

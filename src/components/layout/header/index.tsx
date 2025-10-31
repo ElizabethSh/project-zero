@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./header.scss";
 
-const PAGES = ["home", "about", "experience", "projects"] as const;
+const PAGES = ["home", "about", "experience", "projects", "contact"] as const;
 
 type RefKey = (typeof PAGES)[number];
 
